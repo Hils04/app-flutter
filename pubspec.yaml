@@ -1,0 +1,45 @@
+name: ap2devmobile
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/Combustivel/bomba-de-gasolina.png
+    - images/Combustivel/etanol.png
+    - images/Combustivel/gasolina.png
+    - images/Jogos/Cara_ou_Coroa/pasta-do-jogo.png
+    - images/Jogos/Cara_ou_Coroa/cara-ou-coroa.png
+    - images/Jogos/Cara_ou_Coroa/cara.png
+    - images/Jogos/Cara_ou_Coroa/velho.png
+    - images/Jogos/Jokenpo/pedra.png
+    - images/Jogos/Jokenpo/papel.png
+    - images/Jogos/Jokenpo/tesoura.png
+    - images/Jogos/Jokenpo/padrao.png
+    - images/Jogos/Jogodavelha/jogovelha.png
+    - images/Mensagem/mensagem.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
